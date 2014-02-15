@@ -8,6 +8,7 @@ Base scafold for project, with next features:
 - FTP delopy (coming soon...)
 
 
+
 $ yo simple
 
 ## License
