@@ -51,6 +51,7 @@ SimpleGenerator.prototype.app = function app() {
    
     
     this.directory('scss', 'scss');
+    this.directory('templates', 'app/templates');
     
     this.mkdir('temp');
     this.mkdir('app/css/fonts');
@@ -63,7 +64,6 @@ SimpleGenerator.prototype.app = function app() {
     
     this.mkdir('app/templates/data');
     this.mkdir('app/templates/partials');
-    this.template('index.html', 'app/templates/_index.html');
     
     this.copy('Gruntfile.js', 'Gruntfile.js');
    
